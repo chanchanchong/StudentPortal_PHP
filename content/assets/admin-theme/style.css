@@ -1,0 +1,108 @@
+/*
+================== LOGIN ===============
+*/
+
+.login-body{
+    background:  url(../images/udm.jpg) no-repeat fixed center center;
+}
+
+.login-box{
+    margin-top:  100px;
+}
+
+.panel-login {
+  border-color: black;
+  background-color: transparent;
+}
+.panel-login > .panel-heading {
+  color: #fff;
+  background-color: rgba(0,0,0,.60);
+  border-color: black;
+   font-weight: bold;    
+}
+.panel-login > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: black;
+}
+.panel-login > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: black;
+}
+
+.panel-login > .panel-body{
+    background-color: rgba(0,0,0,.30);
+}
+
+.navbar-default {
+  background-color: #336699;
+  border-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+  background-color: #003366;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  transition: all .3s ease-in-out;
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #003366;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+  background-color: #003366;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #003366;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #003366;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #336699;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+}
+
+
+.footer{
+    margin-top: 20px;
+}
